@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Project Neon - Java Network Engineering : A library for supporting multiple URLStreamHandlers in the same JVM." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Project Neon - Java Network Engineering</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ctrimble/neon">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Project Neon - Java Network Engineering</h1>
+          <h2 id="project_tagline">A library for supporting multiple URLStreamHandlers in the same JVM.</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/ctrimble/neon/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/ctrimble/neon/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Dealing with URL.setURLStreamHandlerFactory( URLStreamHandlerFactory handler )</h3>
+
+<p>This project addresses the problems caused by Java's URLStreamHandlerFactory singleton.  Custom protocol handlers are a powerful mechanism for indirection in a Java program, but they are not usable in a shared environment.  To overcome this limitation, this project translates java.net.URL constructor calls into static factory methods.  These methods can then be isolated by a class loader.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Project Neon - Java Network Engineering maintained by <a href="https://github.com/ctrimble">ctrimble</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
