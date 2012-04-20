@@ -1,23 +1,23 @@
 -classpath
-'/Users/ctrimble/git/neon/asm/target/classes:/Users/ctrimble/.m2/public-repository/org/ow2/asm/asm/4.0/asm-4.0.jar'
+'/Users/ctrimble/git/neon/neon-service/target/classes'
 -encoding
 'UTF-8'
 -protected
 -sourcepath
-'/Users/ctrimble/git/neon/asm/src/main/java'
+'/Users/ctrimble/git/neon/neon-service/src/main/java'
 -author
 -bottom
 'Copyright &#169; 2012. All Rights Reserved.'
 -charset
 'UTF-8'
 -d
-'/Users/ctrimble/git/neon/asm/target/site/apidocs'
+'/Users/ctrimble/git/neon/neon-service/target/site/apidocs'
 -docencoding
 'UTF-8'
 -docfilessubdirs
 -doctitle
-'Neon :: ASM 0.0.1-SNAPSHOT API'
+'Neon :: Service 0.0.1-SNAPSHOT API'
 -use
 -version
 -windowtitle
-'Neon :: ASM 0.0.1-SNAPSHOT API'
+'Neon :: Service 0.0.1-SNAPSHOT API'
